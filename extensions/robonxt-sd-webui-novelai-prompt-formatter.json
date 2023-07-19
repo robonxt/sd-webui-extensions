@@ -1,0 +1,9 @@
+{
+    "name": "NovelAI Prompt Formatter",
+    "url": "https://github.com/robonxt/sd-webui-novelai-prompt-formatter.git",
+    "description": "Fork of animerl/novelai-2-local-prompt, but with better buttons.",
+    "added": "2023-07-04",
+    "tags": [
+        "prompting"
+    ]
+}

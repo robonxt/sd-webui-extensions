@@ -1,0 +1,9 @@
+{
+    "name": "Aspect Ratio++",
+    "url": "https://github.com/robonxt/sd-webui-ar-plus-plus.git",
+    "description": "Fork of LEv145/--sd-webui-ar-plus, but with accordion support.",
+    "added": "2023-07-04",
+    "tags": [
+        "UI related"
+    ]
+}

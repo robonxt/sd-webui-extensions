@@ -1,0 +1,11 @@
+{
+    "name": "Prompt All-in-One",
+    "url": "https://github.com/robonxt/sd-webui-prompt-all-in-one.git",
+    "description": "Fork of Physton/sd-webui-prompt-all-in-one, but removed translation and slimmed down.",
+    "added": "2023-07-04",
+    "tags": [
+        "UI related",
+        "prompting",
+        "online"
+    ]
+}

@@ -16,8 +16,7 @@ permissions:
 jobs:
     build-index:
         runs-on: ubuntu-latest
-        if: github.event.repository.fork == false
-
+        
         steps:
         - name: Checkout extensions
           uses: actions/checkout@v3

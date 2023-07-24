@@ -1868,13 +1868,14 @@
             "added": "2023-07-11"
         },
         {
-            "name": "ComfyUI Tab",
+            "name": "ComfyUI",
             "url": "https://github.com/ModelSurge/sd-webui-comfyui.git",
-            "description": "Embed ComfyUI in its own tab for convenience",
+            "description": "Embed ComfyUI workflows in different sections of the Webui",
             "tags": [
                 "script",
                 "tab",
-                "UI related"
+                "UI related",
+                "manipulations"
             ],
             "added": "2023-07-14"
         },
@@ -1942,6 +1943,24 @@
                 "script",
                 "dropdown"
             ]
+        },
+        {
+            "name": "Dynamic Javascript",
+            "url": "https://github.com/pmcculler/sd-dynamic-javascript",
+            "description": "Embed Javascript code blocks in positive and negative prompts.",
+            "tags": [
+                "prompting"
+            ],
+            "added": "2023-07-22"
+        },
+        {
+            "name": "Simplified Chinese Language Pack",
+            "url": "https://github.com/StormyOrange/SD-WebUI-Localization_ZH_CN.git",
+            "description": "Display WebUI interface in Simplified Chinese",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2023-07-24"
         }
     ]
 }

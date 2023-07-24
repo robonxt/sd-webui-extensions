@@ -13,12 +13,6 @@ jobs:
         runs-on: ubuntu-latest
         
         steps:
-        - name: Checkout extensions
-          uses: actions/checkout@v3
-          with:
-            ref: 'extensions'
-            path: extensions
-
         - name: Checkout master
           uses: actions/checkout@v3
           with:
@@ -31,7 +25,7 @@ jobs:
             python-version: '3.11'
 
         - name: Update extension metadata
-          run: python -B extensions/.github/scripts/update_metadata.py --max-thread 20 --github-token ${{ secrets.GITHUB_TOKEN }} --deploy-branch master
+          run: python -B master/.github/scripts/update_metadata.py --max-thread 20 --github-token ${{ secrets.GITHUB_TOKEN }} --deploy-branch master
         
         - name: Get current date
           id: current-date

@@ -1952,6 +1952,54 @@
             "tags": [
                 "editing"
             ]
+        },
+        {
+            "name": "seamless-tile-inpainting",
+            "url": "https://github.com/brick2face/seamless-tile-inpainting.git",
+            "description": "A script for making tiles seamless using inpainting. Designed for SD1.5 inpainting model at 512x512, but should work fine with other inpainting models.",
+            "added": "2023-07-27",
+            "tags": [
+                "script"
+            ]
+        },
+        {
+            "name": "FaceSwapLab",
+            "url": "https://github.com/glucauze/sd-webui-faceswaplab",
+            "description": "Extended faceswap with multiple faceswaps, inpainting, checkpoints.",
+            "tags": [
+                "editing",
+                "manipulations"
+            ],
+            "added": "2023-07-27"
+        },
+        {
+            "name": "Prompt All-in-One",
+            "url": "https://github.com/robonxt/sd-webui-prompt-all-in-one.git",
+            "description": "Fork of Physton/sd-webui-prompt-all-in-one, but removed translation and slimmed down.",
+            "added": "2023-07-04",
+            "tags": [
+                "UI related",
+                "prompting",
+                "online"
+            ]
+        },
+        {
+            "name": "Aspect Ratio++",
+            "url": "https://github.com/robonxt/sd-webui-ar-plus-plus.git",
+            "description": "Fork of LEv145/--sd-webui-ar-plus, but with accordion support.",
+            "added": "2023-07-04",
+            "tags": [
+                "UI related"
+            ]
+        },
+        {
+            "name": "NovelAI Prompt Formatter",
+            "url": "https://github.com/robonxt/sd-webui-novelai-prompt-formatter.git",
+            "description": "Fork of animerl/novelai-2-local-prompt, but with better buttons.",
+            "added": "2023-07-04",
+            "tags": [
+                "prompting"
+            ]
         }
     ]
 }
